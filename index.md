@@ -1,6 +1,6 @@
 ---
 layout: home
-excerpt: "A simple and clean responsive Jekyll theme for words and photos."
+excerpt: "Yummy recipes for everyone."
 show_excerpts: true
 paginate: true
 entries_layout: list
