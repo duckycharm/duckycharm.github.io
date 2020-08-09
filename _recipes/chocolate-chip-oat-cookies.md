@@ -1,8 +1,8 @@
 ---
 title: "Chocolate Chip, Coconut and Oat Cookies"
 image: 
-  path: /images/Chocolate_oat_cookies.jpg
-  thumbnail: /images/Chocolate_oat_cookies.jpg
+  path: /images/chocolate-oat-cookies.png
+  thumbnail: /images/chocolate-oat-cookies.png
  
 ---
 

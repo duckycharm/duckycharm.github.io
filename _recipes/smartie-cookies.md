@@ -1,11 +1,11 @@
 ---
 title: "Smartie Cookies"
 image: 
-  path: /images/Smartie_biscuits.jpg
-  thumbnail: /images/Smartie_biscuits.jpg
+  path: /images/smartie-cookies.png
+  thumbnail: /images/smartie-cookies.png
 ---
 
-Kids love these cookies with smarties. 
+ The basic recipe here is a cookie recipe with white and brown sugar and eggs giving it a chewy texture. The addition of Smarties makes it a kids favourite. 
 
 ## Ingredients
 

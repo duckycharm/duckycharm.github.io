@@ -1,8 +1,8 @@
 ---
 title: "Peanut Butter Cookies"
 image: 
-  path: /images/Peanut_Butter_Cookies.jpg
-  thumbnail: /images/Peanut_Butter_Cookies.jpg
+  path: /images/peanut-butter-cookies.png
+  thumbnail: /images/peanut-butter-cookies.png
   
 ---
 
