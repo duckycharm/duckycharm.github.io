@@ -2,7 +2,7 @@
 title: "Smartie Cookies"
 image: 
   path: /images/smartie-cookies.png
-  thumbnail: /images/smartie-cookies.png
+  thumbnail: /images/smartie-cookies-thumbnail.png
 ---
 
  The basic recipe here is a cookie recipe with white and brown sugar and eggs giving it a chewy texture. The addition of Smarties makes it a kids favourite. 
