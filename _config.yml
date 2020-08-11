@@ -22,8 +22,8 @@ baseurl: # the subpath of your site, e.g. "/blog"
 url: "https://www.duckycharm.com"
 logo: /images/rubber_duck.svg
 date_format: "%-d %B %Y"
-read_time: # reading time estimates, e.g. true
-words_per_minute: # 200
+read_time: true # reading time estimates, e.g. true
+words_per_minute: 200 # 200
 mathjax:
   enable: # MathJax equations, e.g. true, false (default)
   combo:  # "tex-svg" (default), "tex-mml-chtml", etc.: docs.mathjax.org/en/latest/web/components/combined.html
@@ -50,7 +50,7 @@ feed:
   path: atom.xml
 
 # Pagination - https://jekyllrb.com/docs/pagination/
-# paginate: 10
+# paginate: 5
 # paginate_path: /page:num/
 
 # Search
@@ -98,7 +98,7 @@ defaults:
       path: "_recipes"
       type: recipes
     values:
-      layout: post
+      layout: recipe
       comments: true
       share: true
 
@@ -117,7 +117,7 @@ author:
 footer_links:
   - title: Instagram
     url: https://instagram.com/ducky_charm
-    icon: fab fa-instagram
+    icon: /images/icons/instagram.svg
   - title: Feed
     url: atom.xml
-    icon: fas fa-rss-square
+    icon: /images/icons/rss.svg

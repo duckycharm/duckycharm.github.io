@@ -1,0 +1,19 @@
+---
+layout: page
+---
+
+{{ content }}
+<div class="row">
+    <div class="entries-list">
+        <h1><i>Latest articles</i></h1>
+        {% include latest.html type='posts' limit=2 %}
+        <a class="redirect-button" href="/posts">Go to Articles</a>
+
+    </div>
+    <div class="vl"></div>
+    <div class="entries-list">
+        <h1><i>Latest recipes</i></h1>
+        {% include latest.html type='recipes' limit=2 %}
+        <a class="redirect-button" href="/recipes">Go to Recipes</a>
+    </div>
+</div>
