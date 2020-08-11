@@ -1,0 +1,5 @@
+{% assign posts_limit = include.limit | default: 10 %}
+
+{%- for entry in site[include.type] limit: posts_limit -%}
+{% include entry.html %}
+{%- endfor -%}
