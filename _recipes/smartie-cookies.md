@@ -4,6 +4,9 @@ image:
   path: /images/smartie-cookies.png
   thumbnail: /images/smartie-cookies-thumbnail.png
 recipe:
+  servings: 12 biscuits
+  prep_time: 10 min
+  baking_time: 12 min
   ingredients:
     - 100g butter
     - 100g white sugar

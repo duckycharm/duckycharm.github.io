@@ -4,6 +4,9 @@ image:
   path: /images/chocolate-oat-cookies.png
   thumbnail: /images/chocolate-oat-cookies.png
 recipe:
+  servings: 20 cookies
+  prep_time: 20 min
+  baking_time: 15 min
   ingredients:
     - 100g butter
     - 50g white sugar

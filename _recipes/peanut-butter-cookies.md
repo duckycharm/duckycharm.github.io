@@ -4,6 +4,9 @@ image:
   path: /images/peanut-butter-cookies.png
   thumbnail: /images/peanut-butter-cookies.png
 recipe:
+  servings: 12 cupcakes
+  prep_time: 10 min
+  baking_time: 12 min
   ingredients:
     - 100g butter
     - 100g white sugar
