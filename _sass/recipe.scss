@@ -111,4 +111,22 @@
             clear: both;
         }
     }
+
+    @media print {
+        .navigation-wrapper,
+        .page-share,
+        .page-pagination,
+        .page-image,
+        .read-time,
+        .page-date,
+        footer {
+            display: None;
+        }
+    }
+}
+
+@media print {
+    body {
+        border-top: none;
+    }
 }
