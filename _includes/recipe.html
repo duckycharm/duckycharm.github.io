@@ -1,0 +1,55 @@
+{% if page.recipe %}
+<div class="recipe">
+    <div class="recipe-header">
+        {% if page.recipe.servings %}
+        <div class="recipe-header-" title="Servings">
+            <img src="/images/icons/gingerbread-man.svg" width=40>
+            <span>{{ page.recipe.servings }}</span>
+        </div>
+        {% endif %}
+        {% if page.recipe.prep_time %}
+        <div title="Preparation time">
+            <img src="/images/icons/spoon.svg" width=40>
+            <span>{{ page.recipe.prep_time }}</span>
+        </div>
+        {% endif %}
+        {% if page.recipe.baking_time %}
+        <div title="Baking time">
+            <img src="/images/icons/cooking.svg" width=40>
+            <span>{{ page.recipe.baking_time }}</span>
+        </div>
+        {% endif %}
+    </div>
+    <div class="ingredients">
+        <div class="card">
+            <h2>Ingredients</h2>
+            {% if page.recipe.ingredients.first.first %}
+            {% for item in page.recipe.ingredients %}
+            <h4>{{ item[0] }}</h4>
+            <ul>
+                {% for subitem in item[1] %}
+                <li>{{ subitem }}</li>
+                {% endfor %}
+            </ul>
+            {% endfor %}
+            {% else %}
+            <ul>
+                {% for item in page.recipe.ingredients %}
+                <li>{{ item }}</li>
+                {% endfor %}
+                {% endif %}
+            </ul>
+        </div>
+    </div>
+    <div class="directions">
+        <div class="card">
+            <h2>Directions</h2>
+            <ol>
+                {% for item in page.recipe.directions %}
+                <li>{{ item }}</li>
+                {% endfor %}
+            </ol>
+        </div>
+    </div>
+</div>
+{% endif %}
