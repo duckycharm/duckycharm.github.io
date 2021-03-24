@@ -1,8 +1,8 @@
 ---
 title: "Macarons"
 image: 
-  path: /images/banana-chocolate-chip-cupcakes.png
-  thumbnail: /images/banana-chocolate-chip-cupcakes.png
+  path: /images/macarons.png
+  thumbnail: /images/macarons_thumbnail.png
 recipe:
   servings: 20 cupcakes
   prep_time: 45 min + 1 hour resting
